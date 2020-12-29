@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name MPU-9250)(type KiCad)(uri ${KIPRJMOD}/MPU-9250)(options "")(descr ""))
+  (lib (name D24V50F5)(type KiCad)(uri ${KIPRJMOD}/D24V50F5)(options "")(descr ""))
+  (lib (name F251R-05LB)(type KiCad)(uri ${KIPRJMOD}/F251R-05LB)(options "")(descr ""))
+)

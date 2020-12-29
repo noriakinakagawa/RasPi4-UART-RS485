@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name RasPi4-UART-RS485-rescue)(type Legacy)(uri ${KIPRJMOD}/RasPi4-UART-RS485-rescue.lib)(options "")(descr ""))
+  (lib (name ST1480ACDR)(type Legacy)(uri ${KIPRJMOD}/ST1480ACDR/ST1480ACDR.lib)(options "")(descr ""))
+  (lib (name AE-BMX055)(type Legacy)(uri ${KIPRJMOD}/AE-BMX055/AE-BMX055.lib)(options "")(descr ""))
+  (lib (name D24V50F5)(type Legacy)(uri ${KIPRJMOD}/D24V50F5/D24V50F5.lib)(options "")(descr ""))
+  (lib (name MPU-9250)(type Legacy)(uri ${KIPRJMOD}/MPU-9250/MPU-9250.lib)(options "")(descr ""))
+)

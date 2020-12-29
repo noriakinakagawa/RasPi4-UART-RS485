@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPU-9250
+F https://strawberry-linux.com/pub/mpu-9250-manual.pdf
+$ENDCMP
+#
+#End Doc Library
