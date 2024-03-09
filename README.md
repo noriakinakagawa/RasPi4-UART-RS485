@@ -7,14 +7,14 @@ Raspberry Pi 4 のUART 5chをRS485に変換したコマンド式サーボモー�
 ## Ubuntuの場合
 /boot/firmware/usercfg.txt
 
-以下を追加して保存・再起動
-dtoverlay=pi3-miniuart-bt
-dtoverlay=uart0
-dtoverlay=uart2
-dtoverlay=uart3
-dtoverlay=uart4
-dtoverlay=uart5
-
+以下を追加して保存・再起動  
+dtoverlay=pi3-miniuart-bt  
+dtoverlay=uart0  
+dtoverlay=uart2  
+dtoverlay=uart3  
+dtoverlay=uart4  
+dtoverlay=uart5  
+  
 /dev/ttyAMA0~AMA4の5ポートでRS485通信が可能となります。
 
 ## 注意事項
