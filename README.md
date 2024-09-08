@@ -2,7 +2,7 @@
 Raspberry Pi 4 のUART 5chをRS485に変換したコマンド式サーボモータを動かすための基板データ
 
 ## Raspberry Pi OSの場合
-/boot/config.txt
+/boot/config.txt or /boot/firmware/config.txt
 
 ## Ubuntuの場合
 /boot/firmware/usercfg.txt
@@ -14,6 +14,7 @@ dtoverlay=uart2
 dtoverlay=uart3  
 dtoverlay=uart4  
 dtoverlay=uart5  
+//init_uart_clock=169600000 // for RasPi5
   
 /dev/ttyAMA0~AMA4の5ポートでRS485通信が可能となります。
 
